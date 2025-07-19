@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRUMACCRB.COM - SHOP ĐẠI LÝ ROBLOX CẤP ACC MỌI LOẠI GAME UY TÍN SỐ 1 VN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="root">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <img src="https://upanh.top/5yumuz2ze6.gif" alt="TRUMACCRB Logo" class="logo-img">
+                        <span class="logo-text">TRUMACCRB.COM - SHOP ĐẠI LÝ ROBLOX CẤP ACC MỌI LOẠI GAME UY TÍN SỐ 1 VN</span>
+                    </div>
+                    <nav class="nav">
+                        <a href="#" class="nav-link">TRANG CHỦ</a>
+                        <a href="#" class="nav-link">NẠP THẺ</a>
+                        <a href="#" class="nav-link">NẠP ATM/MOMO</a>
+                        <a href="#" class="nav-link">TIN TỨC</a>
+                        <a href="#" class="nav-link">HỖ TRỢ</a>
+                        <a href="#" class="nav-link">HƯỚNG DẪN</a>
+                    </nav>
+                    <button class="login-btn" onclick="toggleLogin()">ĐĂNG NHẬP</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Payment Section -->
+            <section class="payment-section">
+                <div class="container">
+                    <h2 class="section-title">NẠP TIỀN - CHUYỂN KHOẢN QUA</h2>
+                    <div class="payment-options">
+                        <div class="payment-option">
+                            <img src="/bank.png" alt="Ngân Hàng" class="payment-icon">
+                            <span>Ngân Hàng (ATM)</span>
+                        </div>
+                        <div class="payment-option">
+                            <img src="/momo.png" alt="MOMO" class="payment-icon">
+                            <span>Ứng dụng MOMO</span>
+                        </div>
+                    </div>
+                    <p class="payment-info">Hệ thống nạp <strong>ATM/MOMO tự động 24/24</strong>, Nạp 100k nhận 110k tiền shop</p>
+                    <p class="payment-note"><strong>Lưu ý:</strong> Chuyển tiền nhanh 24/7 để tránh bị treo, chậm tiền! Nếu gửi đúng stk và nội dung mà 30p không nhận được tiền hoặc chuyển ghi sai nội dung vui lòng liên hệ page để được hỗ trợ.</p>
+                </div>
+            </section>
+
+            <!-- Bank Transfer Info -->
+            <section class="bank-info">
+                <div class="container">
+                    <div class="bank-transfer">
+                        <h3>CHUYỂN QUA NGÂN HÀNG</h3>
+                        <div class="bank-details">
+                            <p><strong>THÔNG TIN TÀI KHOẢN NGÂN HÀNG</strong></p>
+                            <p><strong>CHỦ TÀI KHOẢN:</strong> <strong>NGUYEN VAN HIEU</strong></p>
+                            <p><strong>NGÂN HÀNG :</strong> <strong>ACB</strong></p>
+                            <p><strong>SỐ TÀI KHOẢN :</strong> <strong>18845321</strong></p>
+                            <img src="https://img.vietqr.io/image/acb-18845321-compact2.jpg?amount=0&addInfo=TRUMACC&accountName=NGUYEN THI PHUONG HIEN" alt="QR Code" class="qr-code">
+                            <p class="transfer-content">Nội dung chuyển khoản: <strong>NAP</strong></p>
+                            <button class="confirm-btn">Xác nhận. Tôi đã chuyển</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Login Modal -->
+            <div id="loginModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="toggleLogin()">&times;</span>
+                    <div class="login-tabs">
+                        <button class="tab-btn active" onclick="showLogin()">ĐĂNG NHẬP</button>
+                        <button class="tab-btn" onclick="showRegister()">ĐĂNG KÝ</button>
+                    </div>
+                    
+                    <div id="loginForm" class="form-container">
+                        <h3>ĐĂNG NHẬP TÀI KHOẢN</h3>
+                        <button class="facebook-btn">Đăng nhập bằng Facebook</button>
+                        <form>
+                            <input type="text" placeholder="Tài khoản / Email *" required>
+                            <input type="password" placeholder="Mật khẩu *" required>
+                            <a href="#" class="forgot-password">Quên mật khẩu</a>
+                            <button type="submit" class="submit-btn">ĐĂNG NHẬP</button>
+                        </form>
+                    </div>
+
+                    <div id="registerForm" class="form-container" style="display: none;">
+                        <h3>TẠO TÀI KHOẢN</h3>
+                        <form>
+                            <input type="text" placeholder="Tên tài khoản *" required>
+                            <input type="password" placeholder="Mật khẩu *" required>
+                            <input type="password" placeholder="Nhập lại mật khẩu *" required>
+                            <button type="submit" class="submit-btn">ĐĂNG KÝ</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top Leaderboard -->
+            <section class="top-section">
+                <div class="container">
+                    <div class="top-header">
+                        <img src="https://upanh.top/jlzqeh7oen.gif" alt="Top Banner" class="top-banner">
+                        <div class="top-info">
+                            <h3>TOP NẠP 07</h3>
+                            <p>THẺ CÀO</p>
+                            <p>PHẦN THƯỞNG</p>
+                        </div>
+                    </div>
+                    <div class="leaderboard">
+                        <div class="leader-item">
+                            <span class="rank">1</span>
+                            <span class="username">gnjuqe2670</span>
+                            <span class="amount">1,630,000 đ</span>
+                        </div>
+                        <div class="leader-item">
+                            <span class="rank">2</span>
+                            <span class="username">God_saki</span>
+                            <span class="amount">1,300,000 đ</span>
+                        </div>
+                        <div class="leader-item">
+                            <span class="rank">3</span>
+                            <span class="username">Shitlaj</span>
+                            <span class="amount">1,120,000 đ</span>
+                        </div>
+                        <div class="leader-item">
+                            <span class="rank">4</span>
+                            <span class="username">minh3333</span>
+                            <span class="amount">1,100,000 đ</span>
+                        </div>
+                        <div class="leader-item">
+                            <span class="rank">5</span>
+                            <span class="username">mandepzai7777</span>
+                            <span class="amount">920,000 đ</span>
+                        </div>
+                    </div>
+                    <p class="event-notice">Sắp tới sẽ có <strong>sự kiện hot</strong>, hãy chờ nhé!!!</p>
+                    <button class="top-up-btn">NẠP THẺ NGAY</button>
+                </div>
+            </section>
+
+            <!-- Statistics -->
+            <section class="stats-section">
+                <div class="container">
+                    <div class="welcome-text">
+                        <h2>Chào mừng bạn đến với Trumaccrb.com</h2>
+                        <p>Nạp thẻ cào nhận +20% giá trị thẻ nạp</p>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">149816</div>
+                            <div class="stat-label">ACCOUNTS ĐÃ BÁN</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">56214</div>
+                            <div class="stat-label">KHÁCH HÀNG</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product Sections -->
+            <section class="products-section">
+                <div class="container">
+                    <!-- Grow A Garden Products -->
+                    <div class="product-category">
+                        <h3>COMBO SỈ GÁI GROW A GARDEN CỰC ĐỈNH GIÁ CỰC NGON( LƯU Ý: PHẢI GẮN GMAIL VÀ VERI THÌ SẺ 100% LẤY LẠI ĐƯỢC ACC)</h3>
+                        <div class="product-table">
+                            <div class="table-header">
+                                <span>Tên</span>
+                                <span>Hiện có</span>
+                                <span>Đã bán</span>
+                                <span>Giá</span>
+                                <span>Thao tác</span>
+                            </div>
+                            <div class="product-row">
+                                <span class="product-name">ACC SỈ GÁI CÓ TRÁI HONEY SHUCKLE 744T TỈ LỆ RA CẢ VƯỜN XỊN VÀ PET LÀ CỰC CAO VIP NHẤT GAME ( LOẠI SIÊU CẤP VIP PRO MAX )</span>
+                                <span class="stock">81</span>
+                                <span class="sold">3500</span>
+                                <span class="price">20,000đ</span>
+                                <button class="buy-btn">MUA NGAY</button>
+                            </div>
+                            <div class="product-row">
+                                <span class="product-name">ACC SỈ GÁI CÓ TRÁI CANDY 7 NGHÌN TỈ LỆ RA CẢ VƯỜN XỊN VÀ PET LÀ CỰC CAO VIP NHẤT GAME ( LOẠI ĐẲNG CẤP )</span>
+                                <span class="stock">138</span>
+                                <span class="sold">772</span>
+                                <span class="price">3,000đ</span>
+                                <button class="buy-btn">MUA NGAY</button>
+                            </div>
+                            <div class="product-row">
+                                <span class="product-name">ACC SỈ GÁI CÓ TRÁI COCOVINE 40 NGHÌN TỶ TỈ LỆ RA CẢ VƯỜN XỊN VÀ PET LÀ CỰC CAO VIP NHẤT GAME ( LOẠI SAU ĐẲNG CẤP VIP PRO MAX ) )</span>
+                                <span class="stock">140</span>
+                                <span class="sold">979</span>
+                                <span class="price">5,000đ</span>
+                                <button class="buy-btn">MUA NGAY</button>
+                            </div>
+                            <div class="product-row">
+                                <span class="product-name">ACC SỈ GÁI CÓ TRÁI CANDY 10 NGHÌN TỶ TRỞ LÊN TỈ LỆ RA CẢ VƯỜN XỊN VÀ PET LÀ CỰC CAO VIP NHẤT GAME ( LOẠI DÀNH CHO CÁC CHÀNG TRAI TRẺ )</span>
+                                <span class="stock out-of-stock">0</span>
+                                <span class="sold">1040</span>
+                                <span class="price">4,000đ</span>
+                                <button class="buy-btn" disabled>MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Blox Fruits Products -->
+                    <div class="product-category">
+                        <h3>ACC BLOX FRUITS RANDOM 100% CÓ TRÁI MYTHICAL ĐÃ QUAY TRỞ LẠI ( LƯU Ý: PHẢI GẮN GMAIL VÀ VERI THÌ SẺ 100% LẤY LẠI ĐƯỢC ACC)</h3>
+                        <div class="product-table">
+                            <div class="table-header">
+                                <span>Tên</span>
+                                <span>Hiện có</span>
+                                <span>Đã bán</span>
+                                <span>Giá</span>
+                                <span>Thao tác</span>
+                            </div>
+                            <div class="product-row">
+                                <span class="product-name">ACC BLOX FRUITS RANDOM 100% CÓ TRÁI MYTHICAL ĐÃ QUAY TRỞ LẠI ( LƯU Ý: PHẢI GẮN GMAIL VÀ VERI THÌ SẺ 100% LẤY LẠI ĐƯỢC ACC)</span>
+                                <span class="stock">13</span>
+                                <span class="sold">748</span>
+                                <span class="price">5,000đ</span>
+                                <button class="buy-btn">MUA NGAY</button>
+                            </div>
+                            <div class="product-row">
+                                <span class="product-name">ACC BLOX FRUITS RANDOM 100% MAX LEVEL + GODHUMAN ĐÃ QUAY TRỞ LẠI ( LƯU Ý: PHẢI GẮN GMAIL VÀ VERI THÌ SẺ 100% LẤY LẠI ĐƯỢC ACC)</span>
+                                <span class="stock out-of-stock">0</span>
+                                <span class="sold">24</span>
+                                <span class="price">6,000đ</span>
+                                <button class="buy-btn" disabled>MUA NGAY</button>
+                            </div>
+                            <div class="product-row">
+                                <span class="product-name">ACC BLOX FRUITS RANDOM 100% MAX LEVEL + GODHUMAN + SOUL GUITAR ĐÃ QUAY TRỞ LẠI ( LƯU Ý: PHẢI GẮN GMAIL VÀ VERI THÌ SẺ 100% LẤY LẠI ĐƯỢC ACC)</span>
+                                <span class="stock out-of-stock">0</span>
+                                <span class="sold">80</span>
+                                <span class="price">7,000đ</span>
+                                <button class="buy-btn" disabled>MUA NGAY</button>
+                            </div>
+                            <div class="product-row">
+                                <span class="product-name">ACC BLOX FRUITS RANDOM 100% CÓ GODHUMAN + TRÁI ĐỎ ĐÃ QUAY TRỞ LẠI ( LƯU Ý: PHẢI GẮN GMAIL VÀ VERI THÌ SẺ 100% LẤY LẠI ĐƯỢC ACC)</span>
+                                <span class="stock out-of-stock">0</span>
+                                <span class="sold">65</span>
+                                <span class="price">7,000đ</span>
+                                <button class="buy-btn" disabled>MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pet Products -->
+                    <div class="product-category">
+                        <h3>PET GROW A GARDEN SIÊU HOT AE QUẸO LỰA SỐ LƯỢNG GIỚI HẠN( LƯU Ý: PHẢI GẮN GMAIL VÀ VERI THÌ SẺ 100% LẤY LẠI ĐƯỢC ACC)</h3>
+                        <div class="product-table">
+                            <div class="table-header">
+                                <span>Tên</span>
+                                <span>Hiện có</span>
+                                <span>Đã bán</span>
+                                <span>Giá</span>
+                                <span>Thao tác</span>
+                            </div>
+                            <div class="product-row">
+                                <span class="product-name">ACC 100% CÓ PET RACCON</span>
+                                <span class="stock out-of-stock">0</span>
+                                <span class="sold">262</span>
+                                <span class="price">140,000đ</span>
+                                <button class="buy-btn" disabled>MUA NGAY</button>
+                            </div>
+                            <div class="product-row">
+                                <span class="product-name">ACC 100% CÓ PET BUTTERFLY( BƯỚM TÍM) VỚI KHẢ NĂNG ĐƯỢC CHO LÀ NGON NHẤT HIỆN TẠI )</span>
+                                <span class="stock out-of-stock">0</span>
+                                <span class="sold">56</span>
+                                <span class="price">100,000đ</span>
+                                <button class="buy-btn" disabled>MUA NGAY</button>
+                            </div>
+                            <div class="product-row">
+                                <span class="product-name">ACC 100% CÓ PET MIMIC OCTOPUS ( BẠCH TUỘT ĐÊM CÓ KHẢ NĂNG SAO CHÉP KĨ NĂNG SIÊU BÁ ĐẠO)</span>
+                                <span class="stock out-of-stock">0</span>
+                                <span class="sold">95</span>
+                                <span class="price">110,000đ</span>
+                                <button class="buy-btn" disabled>MUA NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Categories -->
+                    <div class="service-categories">
+                        <h3>Danh mục dịch vụ</h3>
+                        <div class="service-grid">
+                            <div class="service-card">
+                                <img src="https://devilrobux.vn/thumb-lazyload.gif" alt="Service" class="service-img">
+                                <h4>BÁN PET GROW A GARDEN SIÊU HOT</h4>
+                                <p class="discount">Đang Giảm Giá 70%</p>
+                            </div>
+                            <div class="service-card">
+                                <img src="https://devilrobux.vn/thumb-lazyload.gif" alt="Service" class="service-img">
+                                <h4>DỊCH VỤ TRÁI VĨNH VIỄN BLOX FRUIT</h4>
+                                <p class="discount">Đang Giảm Giá 70%</p>
+                            </div>
+                            <div class="service-card">
+                                <img src="https://devilrobux.vn/thumb-lazyload.gif" alt="Service" class="service-img">
+                                <h4>GAMEPASS BLOX FRUIT DUYỆT TRONG NGÀY</h4>
+                                <p class="discount">Đang Giảm Giá 70%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <img src="https://upanh.top/5yumuz2ze6.gif" alt="Logo" class="footer-logo">
+                        <h3>TRUMACCRB.COM - SHOP ĐẠI LÝ ROBLOX CẤP ACC MỌI LOẠI GAME UY TÍN SỐ 1 VN</h3>
+                    </div>
+                    <div class="footer-section">
+                        <h4>VỀ CHÚNG TÔI</h4>
+                        <p>Chúng tôi luôn lấy uy tín đặt trên hàng đầu đối với khách hàng, hy vọng chúng tôi sẽ được phục vụ các bạn. Cám ơn!</p>
+                        <p>Thời gian hỗ trợ:<br>
+                        Sáng: 8h00 -> 12h | Chiều: 14h -> 22h</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>HỆ THỐNG BÁN ACC TỰ ĐỘNG</h4>
+                        <p>ĐẢM BẢO UY TÍN VÀ CHẤT LƯỢNG.</p>
+                        <div class="social-links">
+                            <a href="https://zalo.me/g/iwxaem922" class="social-link">Zalo</a>
+                            <a href="http://m.me/61574091034876" class="social-link">Messenger</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-notice">
+                    <h4>THÔNG BÁO</h4>
+                    <p><strong>Chào Mừng Các Bạn Đã Đến Với Shop TRUMACCRB.COM</strong></p>
+                    <p>Nạp CARD 100k = 100K Nhé Mọi Người</p>
+                    <p>ACC BLOX FRUIT giá rẻ nhất thị trường</p>
+                    <p>ƯU ĐÃI VIP MUA 5 TẶNG 1 ae nhanh tay MUA LẸ KẺO HẾT nhé</p>
+                    <p><strong>Cần Hỗ Trợ & Tư Vấn Thì Hãy Nhắn Ngay Cho Shop Góc Phải màn hình</strong></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
